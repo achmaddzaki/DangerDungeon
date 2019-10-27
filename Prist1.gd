@@ -1,7 +1,7 @@
-extends KinematicBody2D
+extends Node2D
 
 var moving = false
-var grid_position = Vector2(1,1)
+var grid_position = Vector2(0,0)
 
 func move(direction):
 	if !moving:
